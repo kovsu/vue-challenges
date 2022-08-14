@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import RefFamily from "./components/RefFamily.vue";
+import { ref } from "vue";
+import UpdateDom from "./components/UpdateDom.vue";
+// import RefFamily from "./components/RefFamily.vue";
 </script>
 
 <template>
-  <RefFamily></RefFamily>
+  <!-- <RefFamily></RefFamily> -->
+  <UpdateDom></UpdateDom>
 </template>
 
 <style scoped></style>
